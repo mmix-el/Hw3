@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Hw3</string>
+    <string name="flags_button_label">flags</string>
+    <string name="get_image_button_label">get image</string>
+    <string name="get_image_with_picasso_hint">Get Image With Picasso</string>
+    <string name="get_image_with_android_hint">Get Image With Android</string>
+    <string name="mock_image_url">https://picsum.photos/200/300</string>
+</resources>

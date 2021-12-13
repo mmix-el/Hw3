@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="polish_flag_white">#E9E8E7</color>
+    <color name="polish_flag_red">#D4213D</color>
+    <color name="austrian_flag_white">#F5F5F5</color>
+    <color name="austrian_flag_red">#C8102E</color>
+    <color name="colombian_flag_yellow">#FCD116</color>
+    <color name="colombian_flag_blue">#003893</color>
+    <color name="colombian_flag_red">#CE1126</color>
+    <color name="madagascar_flag_white">#F5F5F5</color>
+    <color name="madagascar_flag_red">#E54038</color>
+    <color name="madagascar_flag_green">#0F7A40</color>
+    <color name="thai_flag_white">#F4F5F8</color>
+    <color name="thai_flag_red">#A71A30</color>
+    <color name="thai_flag_blue">#282B4A</color>
+    <color name="danish_flag_white">#F1F5F1</color>
+    <color name="danish_flag_red">#CE1126</color>
+    <color name="swiss_flag_white">#F5F5F5</color>
+    <color name="swiss_flag_red">#FF0000</color>
+    <color name="italian_flag_green">#008C45</color>
+    <color name="italian_flag_white">#F4F5F0</color>
+    <color name="italian_flag_red">#CD212A</color>
+</resources>

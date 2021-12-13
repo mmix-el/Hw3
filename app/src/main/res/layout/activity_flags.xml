@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/austrian_flag"
+        layout="@layout/austrian_flag"
+        android:layout_width="@dimen/austrian_flag_width"
+        android:layout_height="@dimen/default_flag_height"
+        android:layout_margin="@dimen/default_margin"
+        android:layout_marginBottom="@dimen/default_margin"
+        app:layout_constraintBottom_toTopOf="@+id/colombian_flag"
+        app:layout_constraintEnd_toStartOf="@+id/polish_flag"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <include
+        android:id="@+id/polish_flag"
+        layout="@layout/polish_flag"
+        android:layout_width="@dimen/polish_flag_width"
+        android:layout_height="@dimen/default_flag_height"
+        app:layout_constraintEnd_toStartOf="@+id/italian_flag"
+        app:layout_constraintStart_toEndOf="@+id/austrian_flag"
+        app:layout_constraintTop_toTopOf="@+id/austrian_flag" />
+
+    <include
+        android:id="@+id/italian_flag"
+        layout="@layout/italian_flag"
+        android:layout_width="@dimen/italian_flag_width"
+        android:layout_height="@dimen/default_flag_height"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/polish_flag"
+        app:layout_constraintTop_toTopOf="@+id/polish_flag" />
+
+    <include
+        android:id="@+id/colombian_flag"
+        layout="@layout/colombian_flag"
+        android:layout_width="@dimen/colombian_flag_width"
+        android:layout_height="@dimen/default_flag_height"
+        android:layout_margin="@dimen/default_margin"
+        android:layout_marginBottom="@dimen/default_margin"
+        app:layout_constraintBottom_toTopOf="@+id/danish_flag"
+        app:layout_constraintEnd_toStartOf="@+id/madagascar_flag_width"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/austrian_flag" />
+
+    <include
+        android:id="@+id/madagascar_flag_width"
+        layout="@layout/madagascar_flag"
+        android:layout_width="@dimen/madagascar_flag_width"
+        android:layout_height="@dimen/default_flag_height"
+        app:layout_constraintEnd_toStartOf="@+id/thai_flag"
+        app:layout_constraintStart_toEndOf="@+id/colombian_flag"
+        app:layout_constraintTop_toTopOf="@+id/colombian_flag" />
+
+    <include
+        android:id="@+id/thai_flag"
+        layout="@layout/thai_flag"
+        android:layout_width="@dimen/thai_flag_width"
+        android:layout_height="@dimen/default_flag_height"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/madagascar_flag_width"
+        app:layout_constraintTop_toTopOf="@+id/madagascar_flag_width" />
+
+    <include
+        android:id="@+id/danish_flag"
+        layout="@layout/danish_flag"
+        android:layout_width="@dimen/danish_flag_width"
+        android:layout_height="@dimen/default_flag_height"
+        android:layout_margin="@dimen/default_margin"
+        android:layout_marginBottom="@dimen/default_margin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/swiss_flag"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/colombian_flag" />
+
+    <include
+        android:id="@+id/swiss_flag"
+        layout="@layout/swiss_flag"
+        android:layout_width="@dimen/swiss_flag_width"
+        android:layout_height="@dimen/default_flag_height"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/danish_flag"
+        app:layout_constraintTop_toTopOf="@+id/danish_flag" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
